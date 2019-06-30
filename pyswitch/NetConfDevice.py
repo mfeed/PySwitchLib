@@ -52,6 +52,10 @@ SLXOS_VERSIONS = {
         'interface': pyswitch.raw.slxos.base.interface.Interface,
         'acl': pyswitch.raw.slxos.base.acl.acl.Acl,
     },
+    '18r.1': {
+        'interface': pyswitch.raw.slxos.base.interface.Interface,
+        'acl': pyswitch.raw.slxos.base.acl.acl.Acl,
+    },
     '17s.1': {
         'interface': pyswitch.raw.slxos.base.interface.Interface,
         'acl': pyswitch.raw.slxos.ver_17s.acl.Acl,
